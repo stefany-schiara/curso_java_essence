@@ -6,6 +6,13 @@ public class Usuario implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 
+	
+	
+	@Override
+	public String toString() {
+		return "Usuario [id=" + id + ", usuario=" + usuario + ", senha=" + senha + ", tipo=" + tipo + "]";
+	}
+
 	public Usuario() {
 	}
 	
