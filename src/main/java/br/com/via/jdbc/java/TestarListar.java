@@ -13,5 +13,7 @@ public class TestarListar {
 		
 		System.out.println(dao.listarTodos());
 		
+		Conexao.fecharConexao(con);
+		
 	}
 }
